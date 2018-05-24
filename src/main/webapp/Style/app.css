@@ -1,0 +1,36 @@
+body {
+	/* 	background-color: #EFEEEE; */
+	
+}
+
+.card .card-block {
+	max-height: 500px;
+	overflow: auto;
+}
+
+.card .card-block::-webkit-scrollbar {
+	width: 0.4em;
+	height: 2px;
+	border-radius: 0.5em;
+}
+
+.card .card-block::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 0.5em;
+}
+
+.card .card-block::-webkit-scrollbar-thumb {
+	border-radius: 0.5em;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.border-solid {
+	border-width: 1px!important;
+	border-color: #D4D3D3!important;
+	border-style: solid!important;
+	border-radius:0.2em;
+}
+
+.min-width{
+	min-width:641px!important;
+}
